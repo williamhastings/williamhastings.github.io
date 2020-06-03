@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://williamhastings.github.io/gallery/</loc>
+    <lastmod>2020-06-03T15:43:57-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://williamhastings.github.io/gallery/walker-ranch-hike-5.22.2020/</loc>
+    <lastmod>2020-06-03T15:43:57-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://williamhastings.github.io/</loc>
+    <lastmod>2020-06-03T15:43:57-06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://williamhastings.github.io/categories/</loc>
     <lastmod>2020-06-02T23:02:55-06:00</lastmod>
   </url>
@@ -49,11 +64,6 @@
   
   <url>
     <loc>https://williamhastings.github.io/post/using-gohugo-with-github-pages/</loc>
-    <lastmod>2020-06-02T23:02:55-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://williamhastings.github.io/</loc>
     <lastmod>2020-06-02T23:02:55-06:00</lastmod>
   </url>
   
