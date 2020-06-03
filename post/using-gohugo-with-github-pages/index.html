@@ -3,12 +3,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>williamhastings.github.io - My First Post </title>
+    <title>williamhastings.github.io - Using Gohugo With Github Pages </title>
     
     
-    <meta content="williamhastings.github.io" name="keywords">
+    <meta content="GitHub Pages, GitHub, Git, GoHugo" name="keywords">
     
-    <meta content="williamhastings.github.io - My first GoHugo content" name="description">
+    <meta content="williamhastings.github.io - This is a guide to how I have my GitHub pages site configured with my GoHugo repository. To do this, you will need two repositories:
+ The first one is your GitHub Pages personal repo. Instructions here: https://pages.github.com/ The second is what contains your GoHugo src files, after following the GoHugo Quickstart Guide  My respective repositories are
+https://github.com/williamhastings/williamhastings.github.io https://github.com/williamhastings/GoHugo-GitHub-Pages-Site Setting up GitHub Pages Repo as Static File Directory When hugo is executed, it generates the static files in the public/ directory." name="description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     
@@ -97,24 +99,65 @@ layui.use('element', function(){
             <div class="layui-card single-card">
                 <br />
                 <blockquote class="self-elem-quote self-elem-quote-bg-blue markdown-body single-title" >
-                    <h1>My First Post</h1>
+                    <h1>Using Gohugo With Github Pages</h1>
                     <h3 style="margin-top:10px; margin-bottom:10px"> 
     <i class="layui-icon layui-icon-date" style="font-size: 28px; vertical-align: -2px;"></i>
     <span>2020-06-02</span>
 
     
+     
+    <i class="layui-icon layui-icon-list" style="font-size: 32px; vertical-align: -3px;"></i>
     
 
     
-
+        <a href="/categories/github/">
+            <span class="layui-badge layui-bg-blue" style="vertical-align: 2px;">GitHub</span>
+        </a>
+    
+        <a href="/categories/gohugo/">
+            <span class="layui-badge layui-bg-blue" style="vertical-align: 2px;">GoHugo</span>
+        </a>
     
 
+    
+    <i class="layui-icon layui-icon-tabs" style="font-size: 22px; vertical-align: 1px;margin-right:2px;"></i>
+    
+
+    
+        <a href="/tags/github-pages/">
+            <span class="layui-badge layui-bg-blue" style="vertical-align: 2px;">GitHub Pages</span>
+        </a>
+    
+        <a href="/tags/github/">
+            <span class="layui-badge layui-bg-blue" style="vertical-align: 2px;">GitHub</span>
+        </a>
+    
+        <a href="/tags/git/">
+            <span class="layui-badge layui-bg-blue" style="vertical-align: 2px;">Git</span>
+        </a>
+    
+        <a href="/tags/gohugo/">
+            <span class="layui-badge layui-bg-blue" style="vertical-align: 2px;">GoHugo</span>
+        </a>
     
     
 </h3>
                 </blockquote>
                 <div class="layui-card-body markdown-body single-content">
-                    <p>My first GoHugo content</p>
+                    <p>This is a guide to how I have my GitHub pages site configured with my GoHugo repository. To do this, you will need two repositories:</p>
+<ol>
+<li>The first one is your GitHub Pages personal repo. Instructions here: <a href="https://pages.github.com/">https://pages.github.com/</a></li>
+<li>The second is what contains your GoHugo src files, after following the GoHugo <a href="https://gohugo.io/getting-started/quick-start/">Quickstart Guide</a></li>
+</ol>
+<p>My respective repositories are</p>
+<pre><code>https://github.com/williamhastings/williamhastings.github.io
+https://github.com/williamhastings/GoHugo-GitHub-Pages-Site
+</code></pre><h3 id="setting-up-github-pages-repo-as-static-file-directory">Setting up GitHub Pages Repo as Static File Directory</h3>
+<p>When <code>hugo</code> is executed, it generates the static files in the <code>public/</code> directory. The easiest way to do this is to delete this directory if you have already created it. Now you can use the <code>git submodule add</code> command to add your GitHub Pages repo as your static folder location. Example using my pages repo</p>
+<pre><code>git submodule add https://github.com/williamhastings/williamhastings.github.io public
+</code></pre><p>Now my <code>public</code> static file directory is my GitHub Pages repo. When I execute <code>hugo</code> it will now populate that submodule with the static files, allowing me to push those changes to my public Pages branch. And the local Hugo source files can be checked into what ever branch you are storing those in.</p>
+<h3 id="moving-forward">Moving Forward</h3>
+<p>I would like to automate the GoHugo content proccess, and git versioning for posting new blog posts, gallaries, etc&hellip; So far I am fairly happy with the GoHugo static site generator from a simple setup, and the <a href="https://themes.gohugo.io/erblog/">erblog theme</a> for GoHugo.</p>
 </div>
             </div>
         </div>
