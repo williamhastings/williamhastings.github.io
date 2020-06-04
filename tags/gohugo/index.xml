@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>GoHugo on williamhastings.github.io</title>
-    <link>https://williamhastings.github.io/tags/gohugo/</link>
-    <description>Recent content in GoHugo on williamhastings.github.io</description>
+    <title>GoHugo on williamhastings.me</title>
+    <link>https://williamhastings.me/tags/gohugo/</link>
+    <description>Recent content in GoHugo on williamhastings.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Jun 2020 23:02:55 -0600</lastBuildDate>
     
-	<atom:link href="https://williamhastings.github.io/tags/gohugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://williamhastings.me/tags/gohugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Using Gohugo With Github Pages</title>
-      <link>https://williamhastings.github.io/post/using-gohugo-with-github-pages/</link>
+      <link>https://williamhastings.me/post/using-gohugo-with-github-pages/</link>
       <pubDate>Tue, 02 Jun 2020 23:02:55 -0600</pubDate>
       
-      <guid>https://williamhastings.github.io/post/using-gohugo-with-github-pages/</guid>
+      <guid>https://williamhastings.me/post/using-gohugo-with-github-pages/</guid>
       <description>This is a guide to how I have my GitHub pages site configured with my GoHugo repository. To do this, you will need two repositories:
  The first one is your GitHub Pages personal repo. Instructions here: https://pages.github.com/ The second is what contains your GoHugo src files, after following the GoHugo Quickstart Guide  My respective repositories are
 https://github.com/williamhastings/williamhastings.github.io https://github.com/williamhastings/GoHugo-GitHub-Pages-Site Setting up GitHub Pages Repo as Static File Directory When hugo is executed, it generates the static files in the public/ directory.</description>

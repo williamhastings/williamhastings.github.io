@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on williamhastings.github.io</title>
-    <link>https://williamhastings.github.io/categories/</link>
-    <description>Recent content in Categories on williamhastings.github.io</description>
+    <title>Categories on williamhastings.me</title>
+    <link>https://williamhastings.me/categories/</link>
+    <description>Recent content in Categories on williamhastings.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 02 Jun 2020 23:02:55 -0600</lastBuildDate>
     
-	<atom:link href="https://williamhastings.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://williamhastings.me/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>GitHub</title>
-      <link>https://williamhastings.github.io/categories/github/</link>
+      <link>https://williamhastings.me/categories/github/</link>
       <pubDate>Tue, 02 Jun 2020 23:02:55 -0600</pubDate>
       
-      <guid>https://williamhastings.github.io/categories/github/</guid>
+      <guid>https://williamhastings.me/categories/github/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GoHugo</title>
-      <link>https://williamhastings.github.io/categories/gohugo/</link>
+      <link>https://williamhastings.me/categories/gohugo/</link>
       <pubDate>Tue, 02 Jun 2020 23:02:55 -0600</pubDate>
       
-      <guid>https://williamhastings.github.io/categories/gohugo/</guid>
+      <guid>https://williamhastings.me/categories/gohugo/</guid>
       <description></description>
     </item>
     
