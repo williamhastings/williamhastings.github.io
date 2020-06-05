@@ -13,10 +13,10 @@
     
     <item>
       <title>Using Gohugo With Github Pages</title>
-      <link>https://williamhastings.me/post/using-gohugo-with-github-pages/</link>
+      <link>https://williamhastings.me/posts/using-gohugo-with-github-pages/</link>
       <pubDate>Tue, 02 Jun 2020 23:02:55 -0600</pubDate>
       
-      <guid>https://williamhastings.me/post/using-gohugo-with-github-pages/</guid>
+      <guid>https://williamhastings.me/posts/using-gohugo-with-github-pages/</guid>
       <description>This is a guide to how I have my GitHub pages site configured with my GoHugo repository. To do this, you will need two repositories:
  The first one is your GitHub Pages personal repo. Instructions here: https://pages.github.com/ The second is what contains your GoHugo src files, after following the GoHugo Quickstart Guide  My respective repositories are
 https://github.com/williamhastings/williamhastings.github.io https://github.com/williamhastings/GoHugo-GitHub-Pages-Site Setting up GitHub Pages Repo as Static File Directory When hugo is executed, it generates the static files in the public/ directory.</description>

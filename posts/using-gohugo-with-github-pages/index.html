@@ -10,7 +10,7 @@
     <meta name="author" content="Theme Author: William Hastings, GoHugo and Boostrap contributors, William Hastings">
 
     
-    <meta content="" name="keywords">
+    <meta content="GitHub Pages , GitHub , Git , GoHugo" name="keywords">
 
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -32,7 +32,7 @@
     
     <link href="css/additions.css" rel="stylesheet">
 
-    <title>williamhastings.me - Galleries </title>
+    <title>williamhastings.me - Using Gohugo With Github Pages </title>
 
     
     
@@ -78,67 +78,80 @@
 
 <body>
 <main role="main" class="container-fluid">
-        <div class="row">
-            <div class="col-sm-12 text-center bg-info text-white-50 p-5">
-                <h1>Galleries</h1>
-            </div>
+    <div class="row">
+        <div class="col-sm-12 text-center bg-info text-white-50 p-5">
+            <h1 class="display-4">Using Gohugo With Github Pages</h1>
         </div>
-        <div class="container">
-            <div class="row my-3">
-                
-                    
-<div class="shadow-lg p-3 mb-3 bg-white rounded col-sm-12">
-    
-    <a href="/gallery/walker-ranch-hike-5.22.2020/" class="text-reset text-decoration-none">
-        <h4 class="text-justify">Walker Ranch Hike 5/22/2020</h4>
-    </a>
-
-    
-    <div class="row px-3 py-1 article-taxonomy">
+    </div>
+    <div class="container">
+        <div class="row my-5 text-wrap">
+            <div class="row px-3 py-1 article-taxonomy">
     
     <i class="fa fa-calendar" aria-hidden="true">
-        <span class="px-2">2020-06-03</span>
+        <span class="px-2">2020-06-02</span>
     </i>
 
     
     
+        <i class="fa fa-bookmark mx-2" aria-hidden="true">
+            
+            <a class="text-decoration-none" href="/categories/github/">
+                <span class="badge badge-info">GitHub</span>
+            </a>
+            
+            <a class="text-decoration-none" href="/categories/gohugo/">
+                <span class="badge badge-info">GoHugo</span>
+            </a>
+            
+        </i>
+    
 
     
+    
+        <i class="fa fa-hashtag mx-2" aria-hidden="true">
+            
+            <a class="text-decoration-none" href="/tags/github-pages/">
+                <span class="badge badge-info">GitHub Pages</span>
+            </a>
+            
+            <a class="text-decoration-none" href="/tags/github/">
+                <span class="badge badge-info">GitHub</span>
+            </a>
+            
+            <a class="text-decoration-none" href="/tags/git/">
+                <span class="badge badge-info">Git</span>
+            </a>
+            
+            <a class="text-decoration-none" href="/tags/gohugo/">
+                <span class="badge badge-info">GoHugo</span>
+            </a>
+            
+        </i>
     
 </div>
+        </div>
+        <hr />
+        <div class="row my-5 default-content-area markdown-content">
+            <div class="col-sm-12">
+                <p>This is a guide to how I have my GitHub pages site configured with my GoHugo repository. To do this, you will need two repositories:</p>
+<ol>
+<li>The first one is your GitHub Pages personal repo. Instructions here: <a href="https://pages.github.com/">https://pages.github.com/</a></li>
+<li>The second is what contains your GoHugo src files, after following the GoHugo <a href="https://gohugo.io/getting-started/quick-start/">Quickstart Guide</a></li>
+</ol>
+<p>My respective repositories are</p>
+<pre><code>https://github.com/williamhastings/williamhastings.github.io
+https://github.com/williamhastings/GoHugo-GitHub-Pages-Site
+</code></pre><h3 id="setting-up-github-pages-repo-as-static-file-directory">Setting up GitHub Pages Repo as Static File Directory</h3>
+<p>When <code>hugo</code> is executed, it generates the static files in the <code>public/</code> directory. The easiest way to do this is to delete this directory if you have already created it. Now you can use the <code>git submodule add</code> command to add your GitHub Pages repo as your static folder location. Example using my pages repo</p>
+<pre><code>git submodule add https://github.com/williamhastings/williamhastings.github.io public
+</code></pre><p>Now my <code>public</code> static file directory is my GitHub Pages repo. When I execute <code>hugo</code> it will now populate that submodule with the static files, allowing me to push those changes to my public Pages branch. And the local Hugo source files can be checked into what ever branch you are storing those in.</p>
+<h3 id="moving-forward">Moving Forward</h3>
+<p>I would like to automate the GoHugo content proccess, and git versioning for posting new blog posts, gallaries, etc&hellip; So far I am fairly happy with the GoHugo static site generator from a simple setup, and the <a href="https://themes.gohugo.io/erblog/">erblog theme</a> for GoHugo.</p>
 
-    <hr />
-
-    
-    
-        <p>Some photos of hiking the Walker Ranch Loop starting from the Boulder trail head</p>
-    
-
-    
-    <div class="d-flex flex-row-reverse">
-            <a href="/gallery/walker-ranch-hike-5.22.2020/" class="btn btn-info btn-sm">Read Article <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-    </div>
-</div>
-                
-            </div>
-            <div class="row">
-                <div class="col-sm-12 text-center">
-<nav aria-label="paginator">
-    <ul class="pagination justify-content-center">
-        <li class="page-item">
-            <a class="page-link text-decoration-none text-reset" href="/gallery/" tabindex="-1"><i class="fa fa-fast-backward" aria-hidden="true"></i></a>
-        </li>
-        
-        
-        <li class="page-item">
-            <a class="page-link text-decoration-none text-reset" href="/gallery/"><i class="fa fa-fast-forward" aria-hidden="true"></i></a>
-        </li>
-    </ul>
-</nav>
-</div>
             </div>
         </div>
     </div>
+</div>
 </main>
 
 </body>
