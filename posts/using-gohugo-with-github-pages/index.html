@@ -143,10 +143,10 @@
 https://github.com/williamhastings/GoHugo-GitHub-Pages-Site
 </code></pre><h3 id="setting-up-github-pages-repo-as-static-file-directory">Setting up GitHub Pages Repo as Static File Directory</h3>
 <p>When <code>hugo</code> is executed, it generates the static files in the <code>public/</code> directory. The easiest way to do this is to delete this directory if you have already created it. Now you can use the <code>git submodule add</code> command to add your GitHub Pages repo as your static folder location. Example using my pages repo</p>
-<pre><code>git submodule add https://github.com/williamhastings/williamhastings.github.io public
-</code></pre><p>Now my <code>public</code> static file directory is my GitHub Pages repo. When I execute <code>hugo</code> it will now populate that submodule with the static files, allowing me to push those changes to my public Pages branch. And the local Hugo source files can be checked into what ever branch you are storing those in.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">git submodule add https://github.com/williamhastings/williamhastings.github.io public
+</code></pre></div><p>Now my <code>public</code> static file directory is my GitHub Pages repo. When I execute <code>hugo</code> it will now populate that submodule with the static files, allowing me to push those changes to my public Pages branch. And the local Hugo source files can be checked into what ever branch you are storing those in.</p>
 <h3 id="moving-forward">Moving Forward</h3>
-<p>I would like to automate the GoHugo content proccess, and git versioning for posting new blog posts, gallaries, etc&hellip; So far I am fairly happy with the GoHugo static site generator from a simple setup, and the <a href="https://themes.gohugo.io/erblog/">erblog theme</a> for GoHugo.</p>
+<p>I would like to automate the GoHugo content proccess, and git versioning for posting new blog posts, gallaries, etc&hellip; So far I am fairly happy with the GoHugo static site generator from a simple setup, and the <a href="https://themes.gohugo.io/erblog/">erblog theme</a> for GoHugo. Going forward, I will be developing my own theme I&rsquo;m calling noless-nomore. Just what you need, and no more for a generic Hugo site using Bootstrap.</p>
 
             </div>
         </div>
